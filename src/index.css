@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main {
+    width: 80%;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchandlist {
+    background-color: wheat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 35% !important;
+    height: 50px;
+    background-color: transparent !important;
+}
+.inggrid{
+    width:100% !important;
+    margin-left:50px !important;
+    max-height:500px;
+}
+span.w{
+    color:forestgreen;
+}
+span.wo{
+    color:darkred;
+}
+.wwo{
+    cursor:pointer;
+    margin-left:5px;
+    font-size:20px;
+}
+.ad{
+    margin-left:5px;
+}
+.itemcard{
+    cursor:pointer;
+}
+.cl {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wwlists {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:30px;
+}
+ul.listwwo {
+    width: 400px;
+}
+ul.listwwo > li {
+    display: inline-block;
+}
+.cardwtha{
+    background-color: green !important;
+}
+.cardwthoa {
+    background-color: darkred !important;
+}
+.navigation {
+    margin: 50px;
+    margin-bottom:0px !important;
+}
+.navigation-n {
+    margin: 50px;
+    margin-top:10px !important;
+    margin-bottom: 0px !important;
+}
+.page {
+    margin:auto;
+    width: 80%;
+    border: 3px solid black;
+}
